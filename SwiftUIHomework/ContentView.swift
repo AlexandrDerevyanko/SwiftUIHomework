@@ -14,7 +14,7 @@ struct ContentView: View {
     var body: some View {
         TabView() {
             if isLogin {
-                ProfileView()
+                ProfileView(logged: $isLogin)
                     .tabItem {
                         Label("Profile", systemImage: "person.fill.checkmark")
                     }
@@ -24,6 +24,10 @@ struct ContentView: View {
                         Label("Login", systemImage: "person")
                     }
             }
+            SettingsView()
+                .tabItem {
+                    Label("Settings", systemImage: "menucard")
+                }
             InfoView()
                 .tabItem {
                     Label("Anthropology", systemImage: "globe")

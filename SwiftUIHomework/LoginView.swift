@@ -5,6 +5,7 @@
 //  Created by Aleksandr Derevyanko on 10.05.2023.
 //
 
+
 import SwiftUI
 
 struct LoginView: View {
@@ -15,17 +16,17 @@ struct LoginView: View {
     
     var body: some View {
         ZStack {
-            Color.white
+            AngularGradient(gradient: Gradient(colors: [.blue, .yellow, .green, .blue, .purple, .blue]), center: .center, angle: Angle(radians: 1))
                 .ignoresSafeArea(edges: .top)
             
             VStack {
-                Image("logo")
+                Image("corgi")
                     .resizable()
                     .frame(width: 160, height: 160)
                     .cornerRadius(80)
                     .shadow(radius: 12)
                     .padding(.top, 20)
-                
+                        
                 VStack(spacing: -0.5) {
                     TextField("Login", text: $login)
                         .modifier(TextFielder())
@@ -41,10 +42,10 @@ struct LoginView: View {
                 }) {
                     Text("Log In")
                         .frame(height: 50)
-                        .foregroundColor(.white)
+                        .foregroundColor(.black)
                 }
                 .frame(maxWidth: .infinity, maxHeight: 50)
-                .background(Color(.systemBlue))
+                .background(Color(.systemMint))
                 .cornerRadius(12)
                 .padding(16)
                 
@@ -52,7 +53,6 @@ struct LoginView: View {
             }
         }
     }
-    
 }
 
 struct LoginView_Previews: PreviewProvider {

@@ -34,3 +34,9 @@ struct InfoDetails: View {
         .background(Color(.systemGray6))
     }
 }
+
+struct InfoDetails_Previews: PreviewProvider {
+    static var previews: some View {
+        InfoDetails(post: data[0])
+    }
+}

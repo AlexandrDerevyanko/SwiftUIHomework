@@ -24,3 +24,9 @@ struct InfoRow: View {
         }
     }
 }
+
+struct InfoRow_Previews: PreviewProvider {
+    static var previews: some View {
+        InfoRow(post: data[0])
+    }
+}

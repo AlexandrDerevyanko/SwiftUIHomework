@@ -18,6 +18,9 @@
 		FF6A18892A0BC2520070D3D9 /* InfoDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6A18882A0BC2520070D3D9 /* InfoDetails.swift */; };
 		FF6A188B2A0BC2A00070D3D9 /* InfoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6A188A2A0BC2A00070D3D9 /* InfoRow.swift */; };
 		FF6A188D2A0BC2CC0070D3D9 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6A188C2A0BC2CC0070D3D9 /* Data.swift */; };
+		FF6D957C2A28DCA700ED08AA /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6D957B2A28DCA700ED08AA /* SettingsView.swift */; };
+		FF6D957E2A28DD0E00ED08AA /* StarsScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6D957D2A28DD0E00ED08AA /* StarsScene.swift */; };
+		FF6D95802A28DD3C00ED08AA /* Shaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6D957F2A28DD3C00ED08AA /* Shaders.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +36,9 @@
 		FF6A18882A0BC2520070D3D9 /* InfoDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoDetails.swift; sourceTree = "<group>"; };
 		FF6A188A2A0BC2A00070D3D9 /* InfoRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoRow.swift; sourceTree = "<group>"; };
 		FF6A188C2A0BC2CC0070D3D9 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		FF6D957B2A28DCA700ED08AA /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		FF6D957D2A28DD0E00ED08AA /* StarsScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarsScene.swift; sourceTree = "<group>"; };
+		FF6D957F2A28DD3C00ED08AA /* Shaders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shaders.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,10 +75,12 @@
 				FF6A186D2A0BBDF60070D3D9 /* ContentView.swift */,
 				FF6A18792A0BBE770070D3D9 /* LoginView.swift */,
 				FF6A187B2A0BBE830070D3D9 /* ProfileView.swift */,
+				FF6D957B2A28DCA700ED08AA /* SettingsView.swift */,
 				FF6A187D2A0BBFDD0070D3D9 /* TextFielder.swift */,
 				FF6A18862A0BC2450070D3D9 /* InfoView.swift */,
 				FF6A188A2A0BC2A00070D3D9 /* InfoRow.swift */,
 				FF6A18882A0BC2520070D3D9 /* InfoDetails.swift */,
+				FF6D957D2A28DD0E00ED08AA /* StarsScene.swift */,
 				FF6A186F2A0BBDF60070D3D9 /* Assets.xcassets */,
 				FF6A18812A0BC1610070D3D9 /* Data */,
 				FF6A18712A0BBDF60070D3D9 /* Preview Content */,
@@ -92,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				FF6A188C2A0BC2CC0070D3D9 /* Data.swift */,
+				FF6D957F2A28DD3C00ED08AA /* Shaders.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -167,10 +176,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF6A187C2A0BBE830070D3D9 /* ProfileView.swift in Sources */,
+				FF6D957E2A28DD0E00ED08AA /* StarsScene.swift in Sources */,
 				FF6A18892A0BC2520070D3D9 /* InfoDetails.swift in Sources */,
 				FF6A187A2A0BBE770070D3D9 /* LoginView.swift in Sources */,
 				FF6A186E2A0BBDF60070D3D9 /* ContentView.swift in Sources */,
 				FF6A187E2A0BBFDD0070D3D9 /* TextFielder.swift in Sources */,
+				FF6D95802A28DD3C00ED08AA /* Shaders.swift in Sources */,
+				FF6D957C2A28DCA700ED08AA /* SettingsView.swift in Sources */,
 				FF6A188D2A0BC2CC0070D3D9 /* Data.swift in Sources */,
 				FF6A186C2A0BBDF60070D3D9 /* SwiftUIHomeworkApp.swift in Sources */,
 				FF6A188B2A0BC2A00070D3D9 /* InfoRow.swift in Sources */,
